@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2af1ec8-bd59-4e57-9fe0-7bad23f5416c" name="Default Changelist" comment="" />
+    <list default="true" id="b2af1ec8-bd59-4e57-9fe0-7bad23f5416c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,27 +25,28 @@
           <entry key="css" value="3" />
           <entry key="gitignore" value="1" />
           <entry key="js" value="8" />
-          <entry key="json" value="1" />
+          <entry key="json" value="2" />
           <entry key="php" value="4" />
           <entry key="scss" value="12" />
-          <entry key="twig" value="12" />
+          <entry key="twig" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="JSON" value="1" />
+          <entry key="JSON" value="2" />
           <entry key="JavaScript" value="8" />
           <entry key="PHP" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="12" />
-          <entry key="Twig" value="12" />
+          <entry key="Twig" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="230" />
+          <entry key="gitignore" value="262" />
           <entry key="js" value="300" />
+          <entry key="json" value="3" />
           <entry key="php" value="1009" />
           <entry key="scss" value="1040" />
           <entry key="twig" value="1278" />
@@ -50,9 +54,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JSON" value="3" />
           <entry key="JavaScript" value="300" />
           <entry key="PHP" value="1009" />
-          <entry key="PLAIN_TEXT" value="230" />
+          <entry key="PLAIN_TEXT" value="262" />
           <entry key="SCSS" value="1040" />
           <entry key="Twig" value="1278" />
         </counts>
@@ -61,24 +66,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/tailwind.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/sass/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/views/pages/home.twig">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,10 +96,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="180">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/views/index.twig">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -123,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/views/partials/html-header.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="225">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -164,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/views/partials/html-header.twig" />
         <option value="$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/page-home.php" />
         <option value="$PROJECT_DIR$/app/public/index.php" />
         <option value="$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/gulpfile.js" />
@@ -181,6 +181,8 @@
         <option value="$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/views/pages/home.twig" />
         <option value="$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/functions.php" />
         <option value="$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/views/partials/footer.twig" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/package.json" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/views/partials/html-header.twig" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -348,6 +350,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -372,12 +375,12 @@
       <option name="presentableId" value="Default" />
       <updated>1558112792301</updated>
       <workItem from="1558112794024" duration="11218000" />
-      <workItem from="1558192233344" duration="759000" />
+      <workItem from="1558192233344" duration="1520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11977000" />
+    <option name="totallyTimeSpent" value="12738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -418,9 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/views/index.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -440,13 +440,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/sass/pages/_home.scss">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/sass/atoms/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -515,13 +508,6 @@
     <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/views/partials/header.twig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/views/partials/html-header.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/views/base.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -543,10 +529,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/views/index.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/bruins4bruins/views/partials/html-header.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="180">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
