@@ -1,0 +1,19 @@
+.btn {
+  @apply inline-flex
+  font-medium
+  text-base
+  leading-none
+  pt-3
+  pb-3
+  px-6
+  transition-slow
+  rounded-full
+  border
+  border-bu-red
+  bg-bu-red
+  text-white;
+
+  &:hover {
+    @apply text-white;
+  }
+}
