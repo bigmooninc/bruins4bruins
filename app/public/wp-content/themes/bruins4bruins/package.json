@@ -12,6 +12,7 @@
     "gulp": "^4.0.2",
     "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2",
+    "jquery-circle-progress": "^1.2.2",
     "tailwindcss": "^1.0.1",
     "tailwindcss-transition": "^1.0.5",
     "tar": ">=4.4.2"

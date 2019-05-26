@@ -1,19 +1,41 @@
 .btn {
   @apply inline-flex
-  font-medium
-  text-base
-  leading-none
-  pt-3
-  pb-3
-  px-6
-  transition-slow
-  rounded-full
-  border
-  border-bu-red
-  bg-bu-red
-  text-white;
+    font-medium
+    text-lg
+    leading-none
+    pt-4
+    pb-4
+    px-8
+    transition-slow
+    rounded-full
+    border
+    border-bured-500
+    bg-bured-500
+    text-white;
 
   &:hover {
-    @apply text-white;
+    @apply text-white bg-bured-700 border-bured-700;
+  }
+}
+
+.btn-bordered {
+  @apply inline-flex
+    font-medium
+    text-base
+    leading-none
+    pt-3
+    pb-3
+    px-6
+    transition-slow
+    rounded-full
+    border
+    border-bured-500
+    bg-transparent
+    text-bured-500;
+
+
+  &:hover {
+    @apply bg-bured-500 border-bured-500
+      text-white;
   }
 }

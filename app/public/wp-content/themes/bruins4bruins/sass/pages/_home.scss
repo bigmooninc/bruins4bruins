@@ -1,0 +1,18 @@
+.quotes {
+  @include xs {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  @include md {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+  }
+
+}
+.quote {
+  //background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(0,32,91,1) 49%, rgba(0,32,91,1) 100%);
+
+}

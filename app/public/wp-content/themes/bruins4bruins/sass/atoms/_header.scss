@@ -1,0 +1,14 @@
+.header {
+  &--sticky {
+    @apply bg-white shadow;
+
+    img {
+      @include xs {
+        @apply w-48;
+      }
+      @include md {
+        @apply w-64;
+      }
+    }
+  }
+}

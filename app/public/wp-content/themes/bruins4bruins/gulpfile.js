@@ -8,7 +8,7 @@ gulp.task('style', function () {
     return gulp.src('sass/**/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(postcss([
-            tailwindcss('./tailwind.js'),
+            tailwindcss,
             require('autoprefixer'),
         ]))
         .pipe(gulp.dest('./'));

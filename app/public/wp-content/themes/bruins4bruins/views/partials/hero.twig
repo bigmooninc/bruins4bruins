@@ -1,0 +1,22 @@
+<section id="hero" class="relative flex w-screen max-w-full bg-black overflow:hidden">
+    <picture class="w-full absolute top-0 left-0 h-full">
+        <source media="(min-width: 1200px)" srcset="{{ image | resize(1920) }}">
+        <source media="(min-width: 768px)" srcset="{{ image | resize(1200) }}">
+        <img class="w-full h-full object-cover" src="{{ image | resize(800) }}">
+    </picture>
+    <div class="absolute bottom-0 left-0 w-full h-full bg-bublue opacity-75"></div>
+    <div class="relative container w-full text-white">
+        <div class="flex flex-col items-start w-full pb-20 md:pb-40 pt-40 md:pt-64 justify-end px-5 md:px-20 lg:w-4/5" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="100">
+            <h1 class="font-condensed leading-none text-5xl md:text-6xl font-semibold text-white">{{ title }}</h1>
+            {% if text %}
+                <p class="font-sans font-light text-xl md:text-2xl leading-tight mt-4">{{ text }}</p>
+            {% endif %}
+            {% if btn_text %}
+                <div class="flex">
+                    <a href="{{ url }}" class="btn mt-8">{{ btn_text }}</a>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+

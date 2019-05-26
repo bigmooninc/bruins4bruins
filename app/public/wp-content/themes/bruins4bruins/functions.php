@@ -170,5 +170,12 @@ function bruins4bruins_timber_context( $context ) {
     return $context;
 }
 
+function add_bruins4bruins_scripts() {
+//    wp_enqueue_style( 'progress', get_template_directory_uri() . '/assets/css/progresscircle.css', array(), '1.1', 'all');
+//    wp_enqueue_script('progresscircle', get_template_directory_uri() . '/assets/js/progresscircle.js', array( 'jquery' ), 1.1, true);
+//    wp_enqueue_script('circle-progress', get_template_directory_uri() . '/assets/js/circle-progress.js', array( 'jquery' ), 1.1, true);
+//    wp_enqueue_script('numscroller', get_template_directory_uri() . '/assets/js/numscroller.js', array( 'jquery' ), 1.1, true);
+    wp_enqueue_script('countup', get_template_directory_uri() . '/assets/js/countup.js', array( 'jquery' ), 1.1, true);
+}
 
-
+add_action( 'wp_enqueue_scripts', 'add_bruins4bruins_scripts' );
