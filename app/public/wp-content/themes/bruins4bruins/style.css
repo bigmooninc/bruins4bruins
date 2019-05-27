@@ -8308,6 +8308,7 @@ a:hover {
   .quotes {
     display: flex;
     flex-direction: column;
+    display: -ms-flexbox;
   }
 }
 
@@ -8316,6 +8317,15 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
+    -ms-grid-columns: 1fr 50px 1fr 50px 1fr;
+  }
+
+  .quotes div:nth-child(2) {
+    -ms-grid-column: 3;
+  }
+
+  .quotes div:nth-child(3) {
+    -ms-grid-column: 5;
   }
 }
 
@@ -8338,8 +8348,8 @@ a:hover {
 
 .btn:hover {
   color: #fff;
-  background-color: #78011C;
-  border-color: #78011C;
+  background-color: #B40129;
+  border-color: #B40129;
 }
 
 .btn-bordered {

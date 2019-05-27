@@ -2,6 +2,7 @@
   @include xs {
     display: flex;
     flex-direction: column;
+    display: -ms-flexbox;
   }
 
 
@@ -9,6 +10,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
+    -ms-grid-columns: 1fr 50px 1fr 50px 1fr;
+    div:nth-child(2) {
+      -ms-grid-column: 3;
+    }
+    div:nth-child(3) {
+      -ms-grid-column: 5;
+    }
   }
 
 }
